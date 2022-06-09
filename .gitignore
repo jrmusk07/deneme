@@ -1,0 +1,24 @@
+# Kullanılan IDE için
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# img
+*.jpg
+*.png
+logo.jpg
+gitignore-aciklama.txt
+img/
+
+
+# videos
+*.mp4
+
+# packages
+# KUllanılan herhangi bir paket olabilir
+
+#  log
+*.log
+password.txt

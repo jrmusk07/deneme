@@ -1,0 +1,43 @@
+EN ÇOK KULLANILAN GIT KOMUTLARI
+
+- git init -> Projeyi initialize etmek , başlatmak için 
+- git add -> Bir dosyayı, bir komut dosyasını ekleyeceğiz ********
+- git commit -> SnapeShot almak için (yazılan yeni kodları eklemek) kullanılır *************
+- git status -> Neler değişmiş bunları goruruz **************
+- git push -> Git ve bir yere push'la , örnegin :github'a. *********
+- git pull -> Git ve proje'yi çek 
+- git clone -> Projeyi kopyalamak için
+- git checkout -> Branchlere geçiş yapabilirsiniz
+- git rm -> Dosyaları silmek için
+
+
+
+
+----------------------
+Gerçek hayat uygualaması : 
+1) git init
+
+2) git status
+
+NOT : git status yazdıgımızda bize 'untracked' diyor yani , dosyaların takip edilmediğini belirtiyor.
+Takip edilmelerini istiyorsak, 'add' kullanıp , takip edilmesini istediğimiz dosyayı belirtiyoruz.
+
+3) git add index.html
+
+NOT : evet şu an takibe başladı ama hiçbir işlem yapmadık. İlk def projeyi onaylayıp bunun snapShot'unu almak istiyorsam :
+
+4) git commit 
+
+NOT : Bizi commit alanına attı ve :q diyip çıkış yaptık.
+
+5) Bunun daha koaly olan bir yolu var gelin bunu deneyelim ::
+  - git commit -m 'First commit (istediğin yorumu yaz)' 
+
+6) Uygulamanın (index.html)'in içine girdim ve bir değişiklik yaptım :
+  Önceki Hali : Responsive real state website - codeselim
+  Sonraki Hali : Responsive real state website - oquzhN
+
+ eğer : git diff dersek (diff'in açılımı different) bize uygulamada oluşan değişiklikleri gösterir.
+
+ NOT : Eğer IDE'e girersek  (Visual Studio Code) , kullanılan dosyaların yanında 'U' ve 'M' işareti göreceğiz.
+ 'U' işareti 'untracked' anlamına geliyor, yani takip edilmeyen dosyaları belirtiyor ; 'M' ise o dosyanın değiştiğini ifade ediyor.
